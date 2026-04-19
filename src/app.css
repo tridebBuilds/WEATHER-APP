@@ -1,0 +1,25 @@
+.body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weather-search-container {
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 40px 20px rgba(0, 0, 0, 0);
+  text-align: center;
+  width: 35%;
+  height: 300px;
+  max-width: 500px;
+  backdrop-filter: blur(10px);
+  outline: 1px solid #edecec;
+}
+.jaison,
+a {
+  color: white;
+  text-align: center;
+  padding-bottom: 2px;
+  text-decoration: none;
+}
